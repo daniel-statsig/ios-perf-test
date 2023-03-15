@@ -164,7 +164,6 @@
 				34139F0055BBD906FE5AF782 /* Pods-PerfTestTests.debug.xcconfig */,
 				2AC5472611A4A279611F2687 /* Pods-PerfTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

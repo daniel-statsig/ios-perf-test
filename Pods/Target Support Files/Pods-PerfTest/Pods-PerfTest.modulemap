@@ -1,0 +1,6 @@
+framework module Pods_PerfTest {
+  umbrella header "Pods-PerfTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

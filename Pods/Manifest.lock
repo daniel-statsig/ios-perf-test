@@ -1,0 +1,18 @@
+PODS:
+  - Statsig (1.21.0):
+    - Statsig/StatsigInternalObjC (= 1.21.0)
+  - Statsig/StatsigInternalObjC (1.21.0)
+
+DEPENDENCIES:
+  - Statsig (~> 1.21.0)
+
+SPEC REPOS:
+  trunk:
+    - Statsig
+
+SPEC CHECKSUMS:
+  Statsig: 231d333880e248f7d1f9e6d1d407b829d7ff3fed
+
+PODFILE CHECKSUM: e7565e905d1c81a3b1e87a573810df198dc2af8f
+
+COCOAPODS: 1.11.3

@@ -20,6 +20,20 @@
                ReferencedContainer = "container:PerfTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5C36367E29C17AE0009CED6A"
+               BuildableName = "PerfTestUITests.xctest"
+               BlueprintName = "PerfTestUITests"
+               ReferencedContainer = "container:PerfTest.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -36,17 +50,6 @@
                BlueprintIdentifier = "5C36367429C17AE0009CED6A"
                BuildableName = "PerfTestTests.xctest"
                BlueprintName = "PerfTestTests"
-               ReferencedContainer = "container:PerfTest.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5C36367E29C17AE0009CED6A"
-               BuildableName = "PerfTestUITests.xctest"
-               BlueprintName = "PerfTestUITests"
                ReferencedContainer = "container:PerfTest.xcodeproj">
             </BuildableReference>
          </TestableReference>

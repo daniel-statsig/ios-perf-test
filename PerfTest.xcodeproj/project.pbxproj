@@ -9,11 +9,6 @@
 /* Begin PBXBuildFile section */
 		2E1E2E0A79A34BAB6980FFB9 /* Pods_PerfTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECC010B2E92CF6A34A11491 /* Pods_PerfTest.framework */; };
 		5C36366329C17ADF009CED6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C36366229C17ADF009CED6A /* AppDelegate.swift */; };
-		5C36366529C17ADF009CED6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C36366429C17ADF009CED6A /* SceneDelegate.swift */; };
-		5C36366729C17ADF009CED6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C36366629C17ADF009CED6A /* ViewController.swift */; };
-		5C36366A29C17ADF009CED6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C36366829C17ADF009CED6A /* Main.storyboard */; };
-		5C36366C29C17AE0009CED6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C36366B29C17AE0009CED6A /* Assets.xcassets */; };
-		5C36366F29C17AE0009CED6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C36366D29C17AE0009CED6A /* LaunchScreen.storyboard */; };
 		5C36367A29C17AE0009CED6A /* PerfTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C36367929C17AE0009CED6A /* PerfTestTests.swift */; };
 		F9EBC796D8787742E85480F7 /* Pods_PerfTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DBB1C694D72478635352B1 /* Pods_PerfTestTests.framework */; };
 /* End PBXBuildFile section */
@@ -37,12 +32,6 @@
 		41DBB1C694D72478635352B1 /* Pods_PerfTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C36365F29C17ADF009CED6A /* PerfTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C36366229C17ADF009CED6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C36366429C17ADF009CED6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C36366629C17ADF009CED6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5C36366929C17ADF009CED6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5C36366B29C17AE0009CED6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5C36366E29C17AE0009CED6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5C36367029C17AE0009CED6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C36367529C17AE0009CED6A /* PerfTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C36367929C17AE0009CED6A /* PerfTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfTestTests.swift; sourceTree = "<group>"; };
 		BECC010B2E92CF6A34A11491 /* Pods_PerfTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,12 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				5C36366229C17ADF009CED6A /* AppDelegate.swift */,
-				5C36366429C17ADF009CED6A /* SceneDelegate.swift */,
-				5C36366629C17ADF009CED6A /* ViewController.swift */,
-				5C36366829C17ADF009CED6A /* Main.storyboard */,
-				5C36366B29C17AE0009CED6A /* Assets.xcassets */,
-				5C36366D29C17AE0009CED6A /* LaunchScreen.storyboard */,
-				5C36367029C17AE0009CED6A /* Info.plist */,
 			);
 			path = PerfTest;
 			sourceTree = "<group>";
@@ -219,9 +202,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C36366F29C17AE0009CED6A /* LaunchScreen.storyboard in Resources */,
-				5C36366C29C17AE0009CED6A /* Assets.xcassets in Resources */,
-				5C36366A29C17ADF009CED6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,9 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C36366729C17ADF009CED6A /* ViewController.swift in Sources */,
 				5C36366329C17ADF009CED6A /* AppDelegate.swift in Sources */,
-				5C36366529C17ADF009CED6A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,29 +305,11 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		5C36366829C17ADF009CED6A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5C36366929C17ADF009CED6A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5C36366D29C17AE0009CED6A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5C36366E29C17AE0009CED6A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		5C36368729C17AE0009CED6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -410,6 +370,7 @@
 		5C36368829C17AE0009CED6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -465,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0FEABA18822992A02546F623 /* Pods-PerfTest.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -474,11 +436,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PerfTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2A315AA374E1BCDEDD7D601 /* Pods-PerfTest.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -506,11 +467,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PerfTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -529,14 +488,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 34139F0055BBD906FE5AF782 /* Pods-PerfTestTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YG5A7C43PH;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.statsig.PerfTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -552,14 +511,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2AC5472611A4A279611F2687 /* Pods-PerfTestTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YG5A7C43PH;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.statsig.PerfTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,0 +1,11 @@
+name: Foo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Do It
+        run: echo $GITHUB_TOKEN

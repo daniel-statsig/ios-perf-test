@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Do It
-        run: echo $GITHUB_TOKEN
+        run: echo ${{ github.token }}
